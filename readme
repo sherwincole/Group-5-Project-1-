@@ -1,11 +1,14 @@
 Group 5 -
 Cole - GDP and Access to Electricity
-Andrew - GDP vs Fossil Fuels - API KEY(-Kuy-mfsEP8WisjqdxS-)
+Andrew - GDP vs Fossil Fuels 
 Tomas - GDP Net Imports
 Bob - GDP vs Renewable resources
 Steven - GDP vs Oil and Energy Consumption
 
 Meta data = https://data.nasdaq.com/databases/WB
+Sample API Pull Requests 
+GDP Data - "https://data.nasdaq.com/api/v3/datatables/WB/DATA.csv?series_id=EG.IMP.CONS.ZS&country_code=USA%2CJPN%2CGBR%2CFRA%2CRUS%2CCAN%2CITA%2CIND%2CCHN%2CDEU&api_key={YOUR API KEY HERE}"
+Net Import Data - "https://data.nasdaq.com/api/v3/datatables/WB/DATA.csv?series_id=NY.GDP.MKTP.CD&country_code=USA%2CJPN%2CGBR%2CFRA%2CRUS%2CCAN%2CITA%2CIND%2CCHN%2CDEU&api_key={YOUR API KEY HERE}"
 Presentation Link - https://docs.google.com/presentation/d/1jT4qBzB1pR3J47iASo0ADUqP20B6U13FAq38mHLhxj8/edit?usp=sharing
 
 Analysis to our Questions:
@@ -22,6 +25,13 @@ Analysis to our Questions:
 ### Looking at the stacked graphs of the GDP and the Kw’s per capita used and Oil per kg per capita used, it shows that overall the more GDP a country has produced, the more resources needed to keep up with a growing economy
 
 ### The data also shows that the rise and fall of the consumption between the top 10 countries was relatively similar, with the United States being the powerhouse among the top 10.
+
+**Average Net Imports per Country in the Time Frame:** When looking at the average net energy imports accross a 25 year span for the current top 10 countries by GDP we can see that in general most of the countries import a percentage of their total energy. The two exporters being Canada and Russia are two known nations with large oil reserves so this coincides with our common sense. It appears that among the importers smaller nations (Germany, France, Italy, Japan) import on averge over half of their total energy. Japan being the largest importer again corroborates our preconcieved notions owing to it being a small island country with limited natural resources. The most surprising element of this graph is that great britian is nearly net nuetral on importing energy. I think this would warrant some further exploration
+
+**A total look at GDP versus Net Imports:** From the scatterplot above it appears that the highest gdp's generally have a net nuetral import percentage. Some potential bias to watch out for from this graph is that the USA was by and far the highest gdp country over this 25 year stretch so they may be skewing some of the data
+
+**Looking for Outliers in the Data by Country:** Here we see that the smaller countries (by land mass) have the narrowest range of import percentages over the 25 year stretch and the larger countries have higher spreads when it comes to their energy imports. There are several potential outliers that may warrant looking into, but given the narrow quartiles it is tough to speak to their statistical relevance without further inquiry. Once again GBR is the surprise here as it has the largest spread in it's quartiles. 
+
 
 # How does GDP influence a country’s production of electricity using renewable resources?
 
