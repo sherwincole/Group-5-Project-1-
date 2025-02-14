@@ -9,9 +9,14 @@ Meta data = https://data.nasdaq.com/databases/WB
 Sample API Pull Requests 
 GDP Data - "https://data.nasdaq.com/api/v3/datatables/WB/DATA.csv?series_id=EG.IMP.CONS.ZS&country_code=USA%2CJPN%2CGBR%2CFRA%2CRUS%2CCAN%2CITA%2CIND%2CCHN%2CDEU&api_key={YOUR API KEY HERE}"
 Net Import Data - "https://data.nasdaq.com/api/v3/datatables/WB/DATA.csv?series_id=NY.GDP.MKTP.CD&country_code=USA%2CJPN%2CGBR%2CFRA%2CRUS%2CCAN%2CITA%2CIND%2CCHN%2CDEU&api_key={YOUR API KEY HERE}"
+GDP and Access - "https://data.nasdaq.com/api/v3/datatables/WB/DATA.csv?series_id=EG.ELC.ACCS.ZS&country_code=USA,IND,CHN,JPN,DEU,GBR,FRA,RUS,CAN,ITA&api_key="
 Presentation Link - https://docs.google.com/presentation/d/1jT4qBzB1pR3J47iASo0ADUqP20B6U13FAq38mHLhxj8/edit?usp=sharing
 
 Analysis to our Questions:
+
+#How does a counties GDP effect its populations access to electricity?
+###As GDP rises so does a populations access to electricity. We see a great example of this with India as their growth follows a liner path from around 50.9% in 1993 to  99.2% in 2022. The r-value for this growth is 0.995824986912076. 
+
 # How does GDP impact electricity production from fossil fuels vs renewable sources?
 
 ###According to the data, we can conclude that countries that primarily use electricity production from natural resources, have a substantially higher GDP compared to countries that use less. 
